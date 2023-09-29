@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(92, 92, 92);
+    font-family: 'Press Start 2P', cursive;
+}
+h1{
+    font-size: 3rem;
+    color: rgba(69, 172, 185, 0.952) ;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black ;
+}
+.noSelect {
+
+    user-select: none;
+}
+.disabled{
+    pointer-events: none;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: rgb(201, 201, 34);
+}
+
+.blue {
+    background-color: blue;
+}
+
+button{
+    
+    border: solid 4px;
+    background-color: rgba(69, 172, 185, 0.952);
+    height:50px;
+    width:150px;
+    border-radius: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+.shape{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    opacity: 50%;
+    margin:auto;
+    border-radius: 25px;
+}
+.blink{
+    opacity: 100%;
+}
+.stil{
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    /* place-content: end space-between; */
+
+}
+.wrong {
+    background-color: red;
+}
+.cont {
+    display: grid;
+    margin: 5px auto;
+    justify-content: center;
+}
